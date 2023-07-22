@@ -1,0 +1,15 @@
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\bin\Debug\net7.0\caballo-ajedrez.exe
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\bin\Debug\net7.0\caballo-ajedrez.deps.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\bin\Debug\net7.0\caballo-ajedrez.runtimeconfig.json
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\bin\Debug\net7.0\caballo-ajedrez.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\bin\Debug\net7.0\caballo-ajedrez.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.csproj.AssemblyReference.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.AssemblyInfoInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.AssemblyInfo.cs
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.csproj.CoreCompileInputs.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\refint\caballo-ajedrez.dll
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.pdb
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\caballo-ajedrez.genruntimeconfig.cache
+C:\Users\gio\Documents\PROGRAMACION\Campus\C sharp\caballo-ajedrez\obj\Debug\net7.0\ref\caballo-ajedrez.dll
