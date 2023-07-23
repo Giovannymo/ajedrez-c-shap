@@ -5,11 +5,17 @@ internal class Program {
   public static void Main(string[] args){
     string[,] tablero = new string[8,8];
     string [] abecedario = {"a","b","c","d","e","f","g","h"};
+    List<string> opciones = new List<string>();
     string fila = "";
     int positivo = 2, negativo = -2;
 
 
-
+    void imprimirOpciones() {
+      Console.WriteLine("Posibles movimientos: ");
+      foreach (string i in opciones){
+       Console.Write($"{i}, ");
+      }
+    }
     void imprimirTablero(){ 
       //Ciclo para imprimir tabla ajedrez
       for(int i = 0; i < 8; i++){
@@ -52,38 +58,46 @@ internal class Program {
             tablero[i,j] = $"YO";
             try{
               if(i+positivo < 8 && i+positivo >= 0 && j+1 < 8 && j+1 >= 0){
+                opciones.Add(tablero[i+positivo,j+1]);
                 tablero[i+positivo,j+1]= "++"; 
 
               }
               if(i+positivo < 8 && i+positivo >= 0 && j-1 < 8 && j-1 >= 0){
+                opciones.Add(tablero[i+positivo,j-1]);
                 tablero[i+positivo,j-1]= "++"; 
 
               }
               if(i+negativo < 8 && i+negativo >= 0 && j+1 < 8 && j+1 >= 0){
+                opciones.Add(tablero[i+negativo,j+1]);
                 tablero[i+negativo,j+1]= "++"; 
 
               }
               if(i+negativo < 8 && i+negativo >= 0 && j-1 < 8 && j-1 >= 0){
+                opciones.Add(tablero[i+negativo,j-1]);
                 tablero[i+negativo,j-1]= "++"; 
 
               }
 
               if(i+1 < 8 && i+1 >= 0 && j+positivo < 8 && j+positivo >= 0){
-                  tablero[i+1,j+positivo]= "++"; 
+                opciones.Add(tablero[i+1,j+positivo]);
+                tablero[i+1,j+positivo]= "++"; 
 
               }
               if(i+1 < 8 && i+1 >= 0 && j+negativo < 8 && j+negativo >= 0){
-                  tablero[i+1,j+negativo]= "++"; 
+                opciones.Add(tablero[i+1,j+negativo]);
+                tablero[i+1,j+negativo]= "++"; 
 
               }
               
               if(i-1 < 8 && i-1 >= 0 && j+positivo < 8 && j+positivo >= 0){
-                  tablero[i-1,j+positivo]= "++"; 
+                opciones.Add(tablero[i-1,j+positivo]);
+                tablero[i-1,j+positivo]= "++"; 
 
               }
               
               if(i-1 < 8 && i-1 >= 0 && j+negativo < 8 && j+negativo >= 0){
-                  tablero[i-1,j+negativo]= "++"; 
+                opciones.Add(tablero[i-1,j+negativo]);
+                tablero[i-1,j+negativo]= "++"; 
 
               }
          
@@ -99,7 +113,7 @@ internal class Program {
     }
 
     imprimirTablero();
-    Console.WriteLine(input);
+    imprimirOpciones();
   }
 
 
